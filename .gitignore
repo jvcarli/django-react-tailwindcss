@@ -4,8 +4,6 @@ db.sqlite3
 # Ignore python virtual environments
 /.venv/
 /venv/
-/.env/
-/env/
 
 # Ignore python cache files
 __pycache__/
@@ -15,3 +13,6 @@ __pycache__/
 
 # IDE files
 /.idea/
+
+# Ignore the project environment file, which contain secrets keys and other configuration parameters.
+.env
