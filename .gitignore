@@ -6,3 +6,6 @@ db.sqlite3
 /venv/
 /.env/
 /env/
+
+# Ignore node files
+/node_modules/
