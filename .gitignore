@@ -1,0 +1,2 @@
+# Ignore default django sqlite database
+db.sqlite3
