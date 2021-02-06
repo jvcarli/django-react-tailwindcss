@@ -1,2 +1,8 @@
 # Ignore default django sqlite database
 db.sqlite3
+
+# Ignore python virtual environments
+/.venv/
+/venv/
+/.env/
+/env/
