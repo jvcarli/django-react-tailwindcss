@@ -73,6 +73,8 @@ TailwindCSS and Clean-CSS and JS files by Webpack.
   ```bash
   $ yarn dev
   ```
+
+  You should be able to see a hello world page at http://localhost:8000/
   
 * Develop
 
