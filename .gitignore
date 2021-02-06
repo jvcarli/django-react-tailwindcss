@@ -9,3 +9,6 @@ db.sqlite3
 
 # Ignore node files
 /node_modules/
+
+# IDE files
+/.idea/
