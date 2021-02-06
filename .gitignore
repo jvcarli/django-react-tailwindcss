@@ -7,6 +7,9 @@ db.sqlite3
 /.env/
 /env/
 
+# Ignore python cache files
+__pycache__/
+
 # Ignore node files
 /node_modules/
 
