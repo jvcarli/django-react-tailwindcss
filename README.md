@@ -1,6 +1,6 @@
 # Django-react-tailwindcss
 
-![Django-react-tailwindcss hello world page](https://i.imgur.com/XAEaUFT.png)
+![Django-react-tailwindcss hello world page](https://i.imgur.com/yIAMkqy.png)
 
 *Slightly* opinionated boilerplate for starting a Django project together with React front-end library and TailwindCSS CSS framework.
 
