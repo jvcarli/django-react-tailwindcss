@@ -5,22 +5,29 @@
   "license": "MIT",
   "scripts": {
     "build": "tailwind build ./assets/styles/tailwind.css -o ./static/css/style.css && cleancss -o ./static/css/style.min.css ./static/css/style.css",
-    "dev": "webpack --mode development && pipenv run python manage.py runserver"
+    "dev": "webpack --mode development && pipenv run python manage.py runserver",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
     "babel-loader": "^8.2.2",
     "clean-css-cli": "^4.3.0",
     "webpack": "^5.21.1",
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.4",
-    "postcss": "^8.2.4",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9",
+    "postcss": "^7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
