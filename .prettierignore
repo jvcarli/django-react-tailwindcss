@@ -1,0 +1,10 @@
+# Python dependencies
+.venv/
+venv/
+
+# Node dependencies
+node_modules/
+
+# TailwindCSS
+static/css/tailwind.css
+static/css/tailwind.min.css
