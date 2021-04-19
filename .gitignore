@@ -2,17 +2,17 @@
 db.sqlite3
 
 # Ignore python virtual environments
-/.venv/
-/venv/
+.venv/
+venv/
 
 # Ignore python cache files
 __pycache__/
 
 # Ignore node files
-/node_modules/
+node_modules/
 
 # IDE files
-/.idea/
+.idea/
 
 # Ignore the project environment file, which contain secrets keys and other configuration parameters.
 .env
