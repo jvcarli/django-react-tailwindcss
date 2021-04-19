@@ -36,11 +36,13 @@ This repo is a boilerplate for quickly creating new websites using Django framew
 
 ## Installing
 
-- Clone this repository
+- Do the project scaffolding with:
 
-  ```bash
-  $ git clone https://github.com/jvcarli/django-react-tailwindcss
-  ```
+    ```bash
+    $ npx degit jvcarli/django-react-tailwindcss myproject
+    ```
+
+  Alternatively,  you can use `$ git clone https://github.com/jvcarli/django-react-tailwindcss` and remove the `.git` directory.
 
 - Inside the project root directory install node **and** python dependencies with:
 
@@ -78,7 +80,7 @@ This repo is a boilerplate for quickly creating new websites using Django framew
 
 **ATTENTION:** `$ yarn` and `$ yarn dev` use `pipenv` in the background.
 
-If you **DO WISH** to use `pip` or any other python package manager open `package.json` file and remove `pipenv` commands
+If you **DO WISH** to use `pip` or any other python package manager edit `package.json` file by removing `pipenv` commands
 from `prepare` and `dev` scripts. **Remember** to **always** source your python virtual environment **before** running `$ yarn dev` and to install the dependencies stated in Pipfile.
 
 `bootstrap.sh` runs `pipenv run` in the background too, so you'll need to remove `pipenv run` from the script and update it accordingly your python pacakge manager.
