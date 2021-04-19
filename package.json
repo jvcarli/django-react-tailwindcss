@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tailwind build ./assets/styles/tailwind.css -o ./static/css/style.css && cleancss -o ./static/css/style.min.css ./static/css/style.css",
+    "build:tailwindcss": "tailwind build ./assets/styles/tailwind.css -o ./static/css/style.css && cleancss -o ./static/css/style.min.css ./static/css/style.css",
     "dev": "webpack --mode development && pipenv run python manage.py runserver",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

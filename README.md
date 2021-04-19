@@ -55,7 +55,7 @@ TailwindCSS and Clean-CSS and JS files by Webpack.
 * Build TailwindCSS static files with:
 
   ```bash
-  $ yarn build
+  $ yarn build:tailwindcss
   ```
 
 * **SECURITY**
