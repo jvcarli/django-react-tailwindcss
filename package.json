@@ -17,18 +17,17 @@
     "@storybook/addon-essentials": "^6.1.17",
     "@storybook/addon-links": "^6.1.17",
     "@storybook/react": "^6.1.17",
+    "autoprefixer": "^10.2.5",
     "babel-loader": "^8.2.2",
     "clean-css-cli": "^4.3.0",
+    "postcss": "^8.2.10",
     "prettier": "2.2.1",
+    "tailwindcss": "^2.1.1",
     "webpack": "^5.21.1",
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "@tailwindcss/postcss7-compat": "^2.0.3",
-    "autoprefixer": "^9",
-    "postcss": "^7",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "react-dom": "^17.0.1"
   }
 }
