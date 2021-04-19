@@ -133,4 +133,4 @@ if os.path.isfile(dotenv_file):
     dotenv.load_dotenv(dotenv_file)
 
 # SECRET KEY
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ['DEV_SECRET_KEY']
