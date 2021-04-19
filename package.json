@@ -19,6 +19,7 @@
     "@storybook/react": "^6.1.17",
     "babel-loader": "^8.2.2",
     "clean-css-cli": "^4.3.0",
+    "prettier": "2.2.1",
     "webpack": "^5.21.1",
     "webpack-cli": "^4.5.0"
   },
