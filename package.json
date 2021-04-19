@@ -1,7 +1,6 @@
 {
   "name": "django_react_tailwindcss",
   "version": "0.1.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "prepare": "yarn build:tailwindcss && pipenv install",
