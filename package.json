@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "yarn build:dev:tailwindcss && pipenv install",
+    "prepare": "yarn build:dev:tailwindcss && poetry install",
     "build:dev:tailwindcss": "tailwind build ./assets/css/tailwind.css -o ./static/css/tailwind.css && cleancss -o ./static/css/tailwind.min.css ./static/css/tailwind.css",
-    "dev": "webpack --mode development && pipenv run python manage.py runserver",
+    "dev": "webpack --mode development && poetry run python manage.py runserver",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
