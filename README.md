@@ -6,7 +6,7 @@ Opinionated boilerplate for starting a Django project together with React front-
 
 ## Reasoning
 
-This repo is a boilerplate for quickly creating new websites using Django framework. It acknowledges the power of React front-end libray and client-side rendering without neglecting the usefulness of server-side rendering, Django template language (DTL), Jinja2 and the rest of Django ecosystem.
+This repo is a boilerplate for quickly creating new websites using Django framework. It acknowledges the power of React front-end libray and client-side rendering without neglecting the usefulness of Django server-side rendering, Django template language (DTL), Jinja2 and the rest of its ecosystem.
 
 ## Requirements
 
