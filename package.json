@@ -6,7 +6,7 @@
     "prepare": "husky install && yarn build:dev:tailwindcss && poetry install",
     "build:dev:tailwindcss": "tailwind build ./assets/css/tailwind.css -o ./static/css/tailwind.css && cleancss -o ./static/css/tailwind.min.css ./static/css/tailwind.css",
     "dev": "yarn dev:django & yarn dev:webpack & yarn dev:browser-sync",
-    "dev:django": "poetry run python manage.py runserver",
+    "dev:django": "poetry run python manage.py runserver 0.0.0.0:8000",
     "dev:webpack": "webpack --watch --mode development",
     "dev:browser-sync": "browser-sync start",
     "storybook": "start-storybook -p 6006",
