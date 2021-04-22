@@ -4,7 +4,7 @@ var path = require("path");
 module.exports = {
   entry: { components: glob.sync("./assets/components/**/*.js") }, // path to input files
   output: {
-    filename: "index-bundle.js", // output bundle file name
+    filename: "bundle.js", // output bundle file name
     path: path.resolve(__dirname, "./static/js"), // path to our Django static directory
   },
   module: {
