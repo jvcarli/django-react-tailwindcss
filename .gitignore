@@ -1,6 +1,3 @@
-# Ignore default django sqlite database
-db.sqlite3
-
 # Ignore python virtual environments
 .venv/
 venv/
@@ -14,5 +11,5 @@ node_modules/
 # IDE files
 .idea/
 
-# Ignore the project environment file, which contain secrets keys and other configuration parameters.
+# Ignore the project environment file, which could contain secrets keys and other configuration parameters.
 .env
